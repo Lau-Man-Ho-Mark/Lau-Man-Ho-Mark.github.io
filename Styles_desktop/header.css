@@ -95,7 +95,7 @@ body{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
 
     .header{
         height: 5%;
@@ -121,7 +121,7 @@ body{
     .navToMobileVer{
         cursor: pointer;
         position: absolute;
-        right: 70px;
+        right: 55px;
         top: 5px;
         font-size: 30px;
     }
