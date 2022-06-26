@@ -1,0 +1,47 @@
+.cardContainer{
+    height: 60%;
+
+    margin: auto;
+    width: 80%;
+    position: relative;
+
+    transition: transform 2s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.contact{
+    display: flex;
+    
+}
+.front{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(56, 253, 148);
+    position: absolute;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lobster";
+    font-size: x-large;
+}
+.back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    background-color: rgb(43, 218, 207);
+}
+.front, .back{
+    backface-visibility: hidden;
+}
+
+.cardContainer:hover{
+    transform: rotateY(180deg);
+}
+
+.clipboardIcon{
+    height: 35px;
+}

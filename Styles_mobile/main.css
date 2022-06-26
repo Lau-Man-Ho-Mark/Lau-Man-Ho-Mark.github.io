@@ -1,0 +1,27 @@
+.mainContent{
+   overflow: hidden;
+}
+section{
+    height: 100vh;
+}
+
+.titleBar{
+    background-color: white;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top:10px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navToPCVerIcon{
+    margin-right: 15px;
+}
+.title{
+   margin: auto;
+   padding-left: 25px;
+   font-family: Lobster;
+}

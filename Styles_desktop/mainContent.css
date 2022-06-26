@@ -1,0 +1,21 @@
+main{
+    position: absolute;
+    top: 10%;
+
+    height: 100%;
+    width: 100%;
+    
+    z-index: -10;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;   
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+
+
+
+

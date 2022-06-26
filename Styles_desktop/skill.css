@@ -1,0 +1,41 @@
+
+/*Second section*/
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    display: grid;
+    height: 80%;
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skillIcons{
+    height: 100px;
+    margin: auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.explanations{
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2{
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+.skillPs{
+    text-align:start;
+    margin-top: 5px;
+}
+@media  screen and (max-width:900px) {
+    .container2{
+        grid-template-columns: 1fr 1fr;
+    }
+}

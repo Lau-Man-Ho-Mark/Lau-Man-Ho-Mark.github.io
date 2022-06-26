@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Kdam+Thmor+Pro&family=Lobster&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Styles_mobile/bottomNav.css">
+    <link rel="stylesheet" href="Styles_mobile/main.css">
+    <link rel="stylesheet" href="Styles_mobile/aboutMe.css">
+    <link rel="stylesheet" href="Styles_mobile/skills.css">
+    <link rel="stylesheet" href="Styles_mobile/experience.css">
+    <link rel="stylesheet" href="Styles_mobile/contact.css">
+</head>
+<body scroll = "no" style=" background: linear-gradient(105deg, #fbda61, #ff5acd);">
+
+    <nav class="bottomNav">
+        <li onclick="itemClick('aboutMe');"> 
+            <div class="navItem" id="aboutMe">
+                <a href="#aboutMeMobile">
+                <span id = "aboutMeSpan" class="imgSpan"> 
+                    <ion-icon id = "aboutMeIcon" name="body-outline"></ion-icon> 
+                </span>
+                 About Me</a>
+                 
+            </div>
+        </li>
+
+        <li onclick="itemClick('skills');"> 
+            <div class="navItem" id="skills">
+                <a href="#skillsMobile">
+                <span class="imgSpan"> 
+                    <ion-icon name="build-outline"></ion-icon> 
+                </span>
+                 Skills 
+                </a> 
+                
+            </div>
+        </li>
+
+        <li onclick="itemClick('exp');"> 
+            <div class="navItem" id="exp">
+                <a href="#expMobile">
+                <span class="imgSpan"> 
+                    <ion-icon name="receipt-outline"></ion-icon> 
+                </span>
+                 Experience
+                </a> 
+            </div>
+        </li>
+
+        <li onclick="itemClick('contacts');"> 
+            <div class="navItem" id="contacts">
+                <a id = "contactAnchor" href="#contactMobile">
+                <span class="imgSpan"> 
+                    <ion-icon name="call-outline"></ion-icon> 
+                </span>
+                 Contacts 
+                </a> 
+            </div>
+        </li>
+
+        <li onclick="itemClick('QA');"> 
+            <div  class="navItem" id="QA">
+                <a href="#QAMobile">
+                <span class="imgSpan"> 
+                    <ion-icon name="help-outline"></ion-icon>  
+                </span>
+                 Q&A
+                </a> 
+            </div>
+        </li>
+    </nav>
+
+    <main class="mainContent">
+        <section class = "aboutMe" id="aboutMeMobile">
+            
+            <div class="titleBar">
+                <div class="title">My Portfolio</div>
+                <a href="index.html" target="_parent">
+                        <ion-icon class = "navToPCVerIcon" name="desktop-outline"></ion-icon>
+                </a>
+                
+                
+            </div>
+            <div class="container">
+                    <h1>Lau Man Ho, Mark</h1>
+                    <p>Date of Birth: 2002-08-26</p>
+                    <p><span style="font-weight: bold;">B.Sc. Computer Science</span> at the Chinese University of Hong Kong</p>
+
+                    <p>I am facinated by Machine Learning and its related fields. Except for CS, I also love to play games, cook, listen to music, and learn new skills. Sometimes I dream of having <span style="font-weight: bold;">a cat/a dog</span>, it is not going to be real unless I can take care of them. I am interested in many job types Eg. ML and Software Engineer. DB, and Mobile App Developer.</p>
+
+                    <p>Relocating to other countries is one of my future plans since staying in Hong Kong restricts my career development. And the hectic rhythms in HK are not really my styles. Temporary options are <span style="font-weight: bold;">Japan, Australia, America.</span></p>
+            </div>
+        </section>
+
+        <section class = "skills" id="skillsMobile">
+            <div class="twoSkillsGrid">
+                <div class="skillDivs">
+                    <img class = "skillIcons" src="Pictures/DSSkills.png">
+                    <div class="explanations">
+                        <h2>Data Structure and Algos</h2>
+                        <p class="skillPs">&#8226 Data Structure Implementations</p>
+                        <p class="skillPs">&#8226 Greedy Algorithms</p>
+                        <p class="skillPs">&#8226 Divide and Conquer</p>
+                        <p class="skillPs">&#8226 Dynamic Programming</p>
+                        
+                    </div>
+                    
+                </div>
+    
+                <div class="skillDivs">
+                    <img class = "skillIcons" src="Pictures/softwareSkills.webp">
+                    <div class="explanations">
+                        <h2>Software Development</h2>
+                        <p class="skillPs">&#8226 SDLC</p>
+                        <p class="skillPs">&#8226 Architecture Design</p>
+                        <p class="skillPs">&#8226 MVC Structure</p>
+                        <p class="skillPs">&#8226 Frontends, Backends, APIs: Design and Maintenance </p>
+                        
+                    </div>
+                    
+                </div>
+    
+                <div class="skillDivs">
+                    <img class = "skillIcons" src="Pictures/dbSkills.png">
+                    <div class="explanations">
+                        <h2>Database Design</h2>
+                        <p class="skillPs">&#8226 Data Integrity, Consistency, and Accuracy</p>
+                        <p class="skillPs">&#8226 Normalised DB Structure</p>
+                        <p class="skillPs">&#8226 SQL Query</p>
+                        
+                    </div>
+                    
+                </div>
+    
+                <div class="skillDivs">
+                    <img class = "skillIcons" src="Pictures/webSkills.png">
+                    <div class="explanations">
+                        <h2>Web Development</h2>
+                        <p class="skillPs">&#8226 HTML, CSS, JavaScript</p>
+                        <p class="skillPs">&#8226 UI Design</p>
+                        
+                    </div>
+                    
+                </div>
+    
+                <div class="skillDivs">
+                    <img class = "skillIcons" src="Pictures/bilingualSkills.png">
+                    <div class="explanations">
+                        <h2>Bilingual Capability</h2>
+                        <p class="skillPs">&#8226 English</p>
+                        <p class="skillPs">&#8226 Cantonese / Mandarin</p>
+                        <p class="skillPs">&#8226 Japanese</p>
+                        
+                    </div>
+                    
+                </div>
+    
+                <div class="skillDivs">
+                    <img class = "skillIcons" src="Pictures/circuitSkills.webp">
+                    <div class="explanations">
+                        <h2>Hardware Design</h2>
+                        <p class="skillPs">&#8226 Combination and Sequential Circuit Design</p>
+                        <p class="skillPs">&#8226 K-Map</p>
+                        <p class="skillPs">&#8226 Bit Manipulation</p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="expGrid" id="expMobile">
+            <div class="exp">
+                <h1>Name</h1>
+                <p>Carpark System</p>
+                <h1>Description</h1>
+                <p>Analysing, Planning, Implementation, Testing, and Maintaining in SDLC approach. In short, the system is advocated to bring conveience to car owner and optimise the efficiency of parking with the help of IOT circuits and mobile applicaitons.</p>
+                <h1>Tools/Languages</h1>
+                <p>Flutter App with Dart, Java, JSON, MS SQL Server, Firebase, Github, Android Studio, Arduino and IR Sensors</p>
+
+                <h1>Demo</h1>
+                <video class = "demos" src="Demos/carpark system app demo (1).mp4" controls muted></video>
+            </div>
+        
+            <div class="exp">
+                <h1>Name</h1>
+                <p>Android Fitness App</p>
+                <h1>Description</h1>
+                <p>An app that contains moving images, food intake calculator, and progress tracking features.</p>
+                <h1>Tools/Languages</h1>
+                <p>Java, Android Studio, XML, Github</p>
+
+                <h1>Demo</h1>
+                <video height="200px" class = "demos" src="Demos/fitnessApp_Trim.mp4" controls muted></video>
+            </div>
+
+            <div class="exp">
+                <h1>Name</h1>
+                <p>ATM</p>
+                <h1>Description</h1>
+                <p>By implementing software reverse engineering. Track, update, or rebuild an existing bank system, which supports several transactions</p>
+                <h1>Tools/Languages</h1>
+                <p>Java, Eclipse</p>
+
+                <h1>Demo</h1>
+                <video class = "demos" src="Demos/Java Demonstration (1).mp4" controls muted></video>
+            </div>
+  
+        </section>
+
+        <section class="contact" id="contactMobile">
+            <div class="cardContainer">
+                <div class="front">Tap to Flip the Card</div>
+                <div class="back">
+                    <img class = "clipboardIcon" src="Pictures/clipboardIcon.webp" onclick="clipBoardClicked();">
+                    <p class="info">Email: <span style="font-weight: bold;">forfindingjob020826@gmail.com</span></p>
+                    <p class="info">Phone Num: <a href="https://wa.me/91741138" target="_blank"><span style="font-weight: bold;">+852 91741138</span></a></p>
+                    <p class="info">Whatsapp/Signal/Telegram: <span style="font-weight: bold;">As Above</span></p>
+                    <p class="info">Instagram: <a href="https://www.instagram.com/laumanho/" target="_blank">laumanho</a></p>
+
+                    <p class="info" style="font-weight: bold;">The aforementioned skill and experience are just in brief.
+                        Kindly contact me for the explanations and details :D
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="QA" id="QAMobile">
+            <div class="QuestionsAndAnswers">
+                <h1 style="font-family: Arial; font-size: 30px; text-decoration:underline; text-align: center;">Q&A</h4>
+    
+                <p class="QAPs">Q: When did I start coding? <span style="font-weight: bold;"> 18 year old, when I became a freshman in a college</span></p>
+                <p class="QAPs">Q: What does programming mean to me? <span style="font-weight: bold;">A way to implement the algorithms of theoretical Computer Science and a tool to get the works done</span></p>
+                <p class="QAPs">Q: What programming languages do I use? <span style="font-weight: bold;">Java, C++, Python, HTML, CSS, JavaScript, R, SQL, C. I rarely write C++, R, and C nowaday</span></p>
+                <p class="QAPs">Q: Am I a fan of designing fancy UI? <span style="font-weight: bold;">Playing with nice UI is satisfactory, but the process of making it is exhaustive. I maintain a neutral attitude</span></p>
+                <p class="QAPs">Q: Web or Native app? <span style="font-weight: bold;">Some say native app is dying, but I enjoy writing native app with Java/Kotlin more</span></p>
+                <p class="QAPs">Q: What are the new skills that I am trying to pick up? <span style="font-weight: bold;">Swift for IOS app, more frameworks for web development, more non-SQL DBMSs, game engines like Unity</span></p>
+                <p class="QAPs">Q: What were my favourite subjects in the CS curricular? <span style="font-weight: bold;">Discrete Math, Data Structure, to be updated</span></p>
+                <p class="QAPs">Q: Thing(s) I am currently learning/playing around with: <span style="font-weight: bold;">A web development framework: React.js</span></p>
+                <p class="QAPs"></p>
+    
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!--Importing icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index_mobile.js"></script>
+
+</body>
+</html>
