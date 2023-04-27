@@ -73,17 +73,11 @@ p, h1{
 
 @media screen and (max-width: 1800px){
     .container1{
-        height: 50%;
+        height: 45%;
     } 
 
 }
-@media screen and (max-width: 1600px){
-    .container1{
-        height: 65%;
-    } 
-  
 
-}
 @media screen and (max-width: 600px){
     .container1{
         height: 55%;
