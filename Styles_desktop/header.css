@@ -85,10 +85,7 @@ body{
     .container1{
         height: 65%;
     } 
-    .container1:hover{
-        height: 78%;
-        font-size: large;
-    } 
+    
     .container1:hover .imgBox{
         top: -120px;
     }   
