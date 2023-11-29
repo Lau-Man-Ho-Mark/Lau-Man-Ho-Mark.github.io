@@ -85,10 +85,6 @@ body{
     .container1{
         height: 65%;
     } 
-    
-    .container1:hover .imgBox{
-        top: -120px;
-    }   
 
 }
 
